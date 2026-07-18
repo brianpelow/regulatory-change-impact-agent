@@ -1,0 +1,48 @@
+ILLUSTRATIVE SAMPLE -- NOT A REAL REGULATORY DOCUMENT
+This is a synthetic composite written to demonstrate obligation extraction.
+It does not reproduce or represent the text of any actual agency publication.
+
+SUPERVISORY GUIDANCE ON THE GOVERNANCE OF ARTIFICIAL INTELLIGENCE SYSTEMS
+Reference: ILLUSTRATIVE-2026-01
+
+SECTION I. SCOPE
+
+This guidance applies to institutions deploying artificial intelligence or machine learning systems that inform consequential decisions affecting consumers or the safety and soundness of the institution.
+
+SECTION II. MODEL INVENTORY AND GOVERNANCE
+
+(a) An institution must maintain a complete model inventory recording every artificial intelligence model in production use, including the model version deployed, the date of deployment, and the individual accountable for its operation.
+
+(b) An institution shall retain model documentation sufficient to establish the conceptual soundness of each model, including its intended use, its known limitations, and the data on which it was developed.
+
+(c) Model validation must be performed prior to production deployment and repeated at a frequency commensurate with the model's risk. Validation evidence shall be retained and made available upon supervisory request.
+
+(d) An institution is required to conduct ongoing monitoring of model performance in production and must establish thresholds that trigger review when performance degrades.
+
+SECTION III. RECORDKEEPING AND RECONSTRUCTION
+
+(a) For each consequential decision informed by an artificial intelligence system, an institution must retain records sufficient to reconstruct the decision, including the inputs presented to the model, the identity and version of the model that produced the output, and the output itself.
+
+(b) Such records shall be preserved in a manner that prevents undetected alteration and must be retained for the period applicable to the underlying decision.
+
+(c) An institution should periodically verify that retained records are in fact sufficient to reproduce the decision as originally rendered.
+
+SECTION IV. EXPLAINABILITY
+
+(a) Where an artificial intelligence system informs a decision that is adverse to a consumer, the institution must be able to identify the principal factors that contributed to that outcome.
+
+(b) An institution shall not deploy a model whose decision rationale cannot be articulated to a supervisory examiner in terms the examiner can evaluate.
+
+SECTION V. HUMAN OVERSIGHT AND ACCOUNTABILITY
+
+(a) Every artificial intelligence system in production must have a named accountable owner recorded in the institution's governance records.
+
+(b) An institution is required to establish a human review path for decisions that a consumer contests or that fall outside the model's validated operating range.
+
+(c) Escalation procedures shall be documented and tested.
+
+SECTION VI. CHANGE AUTHORIZATION
+
+(a) A change to a production artificial intelligence system, including replacement of a model version, must be authorized in accordance with the institution's change management process prior to deployment.
+
+(b) The institution shall retain an audit trail of every such authorization.

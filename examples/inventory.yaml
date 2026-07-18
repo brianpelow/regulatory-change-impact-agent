@@ -1,0 +1,112 @@
+# Reference system inventory.
+#
+# A generic set of systems typical of a regulated financial institution.
+# Every name, owner, and attribute here is illustrative. Copy this file and
+# replace it with your own inventory to assess against real systems.
+#
+# criticality:    consequential | supporting | advisory
+# uses_ai:        does the system employ a model or automated decisioning
+# third_party:    is the capability supplied by an external vendor
+# data_classes:   what the system processes
+# decision_types: what the system decides
+# controls:       what the system already has in place
+#
+# uses_ai and criticality matter more than they look: a document scoped to
+# "AI systems informing consequential decisions" binds only systems where
+# both are true.
+
+systems:
+  - id: credit-decisioning-api
+    name: Credit Decisioning API
+    criticality: consequential
+    uses_ai: true
+    third_party: false
+    owner: lending-platform
+    description: Automated credit approval and limit assignment.
+    data_classes: [consumer_pii, credit_data, demographic]
+    decision_types: [credit, underwriting, pricing]
+    controls:
+      - model_registry
+      - decision_record
+      - human_review_path
+      - access_control
+
+  - id: fraud-detection-service
+    name: Fraud Detection Service
+    criticality: consequential
+    uses_ai: true
+    third_party: false
+    owner: risk-platform
+    description: Real-time transaction fraud scoring.
+    data_classes: [consumer_pii, transaction_data]
+    decision_types: [fraud, risk_scoring, account_closure]
+    controls:
+      - model_registry
+      - performance_monitoring
+      - access_control
+      - incident_workflow
+
+  - id: collections-prioritizer
+    name: Collections Prioritizer
+    criticality: supporting
+    uses_ai: true
+    third_party: false
+    owner: servicing-platform
+    description: Ranks delinquent accounts for outreach.
+    data_classes: [consumer_pii, credit_data]
+    decision_types: [risk_scoring, eligibility]
+    controls:
+      - access_control
+      - retention_policy
+
+  - id: marketing-propensity-model
+    name: Marketing Propensity Model
+    criticality: advisory
+    uses_ai: true
+    third_party: false
+    owner: growth-analytics
+    description: Estimates likelihood of product interest for campaign targeting.
+    data_classes: [consumer_pii, demographic]
+    decision_types: [eligibility]
+    controls:
+      - access_control
+
+  - id: vendor-kyc-integration
+    name: Vendor KYC Integration
+    criticality: consequential
+    uses_ai: true
+    third_party: true
+    owner: compliance-platform
+    description: Third-party identity verification and screening.
+    data_classes: [consumer_pii]
+    decision_types: [eligibility]
+    controls:
+      - vendor_assessment
+      - access_control
+      - incident_workflow
+
+  - id: payments-ledger
+    name: Payments Ledger
+    criticality: consequential
+    uses_ai: false
+    third_party: false
+    owner: payments-platform
+    description: Deterministic transaction posting and settlement. No model involved.
+    data_classes: [consumer_pii, transaction_data]
+    decision_types: []
+    controls:
+      - access_control
+      - retention_policy
+      - change_approval_workflow
+
+  - id: internal-doc-search
+    name: Internal Document Search
+    criticality: advisory
+    uses_ai: true
+    third_party: false
+    owner: developer-experience
+    description: Retrieval over internal engineering documentation.
+    data_classes: [internal_docs]
+    decision_types: []
+    controls:
+      - access_control

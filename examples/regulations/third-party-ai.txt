@@ -1,0 +1,42 @@
+ILLUSTRATIVE SAMPLE -- NOT A REAL REGULATORY DOCUMENT
+This is a synthetic composite written to demonstrate obligation extraction.
+It does not reproduce or represent the text of any actual agency publication.
+
+GUIDANCE ON THIRD-PARTY ARTIFICIAL INTELLIGENCE SERVICES
+Reference: ILLUSTRATIVE-2026-03
+
+SECTION 1. PURPOSE
+
+This guidance addresses institutional use of artificial intelligence capabilities supplied by third parties, including hosted model services and vendor-embedded automated decisioning.
+
+SECTION 2. VENDOR DUE DILIGENCE
+
+2.1 An institution must perform due diligence on any third party supplying an artificial intelligence capability that informs a consequential decision, and shall document the results of that assessment.
+
+2.2 The assessment is required to address the vendor's model governance practices, its incident notification commitments, and its ability to support the institution's own recordkeeping obligations.
+
+2.3 An institution shall not rely on a vendor attestation in place of its own evaluation where the capability informs a consequential decision.
+
+SECTION 3. CONTRACTUAL PROVISIONS
+
+3.1 Contracts with third-party providers must secure the institution's right to obtain records sufficient to reconstruct decisions produced by the vendor's system.
+
+3.2 Such contracts shall require the vendor to notify the institution of material changes to the model or its operating parameters prior to those changes taking effect.
+
+SECTION 4. ONGOING MONITORING
+
+4.1 An institution is required to monitor the performance of third-party artificial intelligence capabilities on an ongoing basis.
+
+4.2 The institution must establish criteria for escalation where vendor performance degrades or where the vendor fails to meet its notification commitments.
+
+SECTION 5. INCIDENT NOTIFICATION
+
+5.1 An institution must notify its primary supervisor of any incident involving a third-party artificial intelligence capability that materially affects consumers or the institution's operations.
+
+5.2 Notification shall occur within the timeframe established by applicable reporting requirements, and the institution is required to track and evidence its compliance with that timeframe.
+
+5.3 The institution shall retain an audit trail of each incident and the actions taken in response.
+
+SECTION 6. CHANGE MANAGEMENT
+
+6.1 A vendor-initiated change to a production capability must be subject to the institution's own change authorization process before it takes effect in the institution's environment.

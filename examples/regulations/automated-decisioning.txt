@@ -1,0 +1,41 @@
+ILLUSTRATIVE SAMPLE -- NOT A REAL REGULATORY DOCUMENT
+This is a synthetic composite written to demonstrate obligation extraction.
+It does not reproduce or represent the text of any actual agency publication.
+
+PROPOSED RULE ON AUTOMATED DECISIONING IN CONSUMER FINANCIAL SERVICES
+Reference: ILLUSTRATIVE-2026-02
+Comment period: 60 days from publication
+
+PART A. APPLICABILITY
+
+This part applies to any automated decision that determines a consumer's eligibility for, or the terms of, a consumer financial product.
+
+PART B. NOTICE OF ADVERSE ACTION
+
+(1) A covered institution must provide a statement of reasons to any consumer who receives an adverse action determined in whole or in part by an automated decision system.
+
+(2) The statement of reasons shall identify the specific principal reasons for the adverse action. A generic reference to a proprietary scoring methodology is not sufficient.
+
+(3) A covered institution is required to maintain a mapping between model outputs and the reason codes disclosed to consumers, and must retain that mapping for the life of the disclosure obligation.
+
+PART C. FAIR LENDING AND DISPARATE IMPACT
+
+(1) A covered institution must conduct testing for disparate impact across prohibited bases prior to deploying an automated decision system and periodically thereafter.
+
+(2) Where testing identifies a disparity, the institution shall document its analysis of whether a less discriminatory alternative is available.
+
+(3) A covered institution is required to monitor deployed systems for emergent disparities on a protected class basis and must establish thresholds that trigger investigation.
+
+(4) Records of such testing and monitoring shall be retained and produced upon request.
+
+PART D. RECORDKEEPING
+
+(1) A covered institution must retain, for each automated decision, the input data considered, the model version applied, and the resulting determination.
+
+(2) Such records shall be maintained in a form that permits reconstruction of the decision.
+
+PART E. HUMAN REVIEW
+
+(1) A covered institution must provide a consumer with a means to contest an automated decision and obtain review by a natural person.
+
+(2) The institution shall not condition that review on the consumer waiving any right.
