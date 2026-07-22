@@ -1,6 +1,6 @@
 # Regulatory Impact Assessment: ai-model-governance.txt
 
-**Date:** 2026-07-21  |  **Obligations:** 14  |  **Systems affected:** 4  |  **Estimated effort:** 122 engineer-weeks
+**Date:** 2026-07-22  |  **Obligations:** 14  |  **Systems affected:** 4  |  **Estimated effort:** 122 engineer-weeks
 
 **Applicability:** Scoped to: AI/ML systems, consequential decisions, consumer-facing data.
 
