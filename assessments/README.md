@@ -1,6 +1,6 @@
 # Regulatory Impact Assessments
 
-**Last run:** 2026-07-23  |  **Documents assessed:** 3  |  **Combined remediation estimate:** 340 engineer-weeks
+**Last run:** 2026-07-24  |  **Documents assessed:** 3  |  **Combined remediation estimate:** 340 engineer-weeks
 
 Assessed against [examples/inventory.yaml](../examples/inventory.yaml), a generic reference inventory. Source documents are illustrative composites, not real regulatory text -- see [examples/regulations/](../examples/regulations/).
 
