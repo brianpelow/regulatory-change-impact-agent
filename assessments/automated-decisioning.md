@@ -1,6 +1,6 @@
 # Regulatory Impact Assessment: automated-decisioning.txt
 
-**Date:** 2026-08-08  |  **Obligations:** 9  |  **Systems affected:** 4  |  **Estimated effort:** 94 engineer-weeks
+**Date:** 2026-08-09  |  **Obligations:** 9  |  **Systems affected:** 4  |  **Estimated effort:** 94 engineer-weeks
 
 **Applicability:** Scoped to: AI/ML systems, consequential decisions, consumer-facing data.
 
