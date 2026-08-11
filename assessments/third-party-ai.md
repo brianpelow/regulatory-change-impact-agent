@@ -1,6 +1,6 @@
 # Regulatory Impact Assessment: third-party-ai.txt
 
-**Date:** 2026-08-10  |  **Obligations:** 20  |  **Systems affected:** 7  |  **Estimated effort:** 124 engineer-weeks
+**Date:** 2026-08-11  |  **Obligations:** 20  |  **Systems affected:** 7  |  **Estimated effort:** 124 engineer-weeks
 
 **Applicability:** No explicit scope detected; assessed against all systems.
 
